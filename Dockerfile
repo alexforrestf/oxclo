@@ -2,7 +2,7 @@
 FROM ubuntu:15.10
 # update the package list
 RUN apt-get update
-#upgrade
+#upgrade apt get e
 RUN apt-get upgrade -y
 # install node, node package manager and git
 RUN apt-get -y install nodejs npm git
